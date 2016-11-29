@@ -1,0 +1,34 @@
+$(document).ready(function(){
+    $("#titulo").keyup(function(){
+
+	var _this = $('#titulo');
+	var _titulo = $('#titulo').val();
+
+		_this.attr('style', 'background:white'); 
+
+	if( _titulo.toLowerCase() == 'matrix' ) 
+	{
+	_this.attr('style', 'background:white');    
+
+
+}else if ( _titulo.toLowerCase() == 'psicosis')
+{
+
+	_this.attr('style', 'background:white');    
+
+}
+
+else {
+
+	_this.attr('style' , 'background:red');
+}
+
+});
+
+
+
+
+
+   });
+
+
